@@ -1,4 +1,4 @@
-package com.example.pracapp
+package com.example.prac2_app
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
