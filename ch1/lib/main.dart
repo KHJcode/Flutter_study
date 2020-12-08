@@ -29,6 +29,18 @@ class Grade extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
+              Center(
+                child: CircleAvatar(
+                  backgroundImage: AssetImage('assets/khjcode.png'),
+                  radius: 60.0,
+                ),
+              ),
+              Divider(
+                height: 60.0,
+                color: Colors.grey[850],
+                thickness: 0.5,
+                endIndent: 30.0,
+              ),
               Text(
                 'NAME',
                 style: TextStyle(
@@ -117,6 +129,13 @@ class Grade extends StatelessWidget {
                     ),
                   ),
                 ],
+              ),
+              Center(
+                child: CircleAvatar(
+                  backgroundImage: AssetImage('assets/images/pokemon.png'),
+                  backgroundColor: Color.fromRGBO(0, 0, 0, 0),
+                  radius: 35.0,
+                ),
               ),
             ],
           ),
